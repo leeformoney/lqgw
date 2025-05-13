@@ -1,0 +1,60 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "选择乡镇"
+      }
+    },
+    {
+      "path": "pages/villages/villages",
+      "style": {
+        "navigationBarTitleText": "选择行政村"
+      }
+    },
+    {
+      "path": "pages/upload/upload",
+      "style": {
+        "navigationBarTitleText": "上传照片"
+      }
+    },
+    {
+      "path": "pages/my-uploads/my-uploads",
+      "style": {
+        "navigationBarTitleText": "我的上传记录"
+      }
+    },
+	{
+	      "path": "pages/oss-manager/index",
+	      "style": {
+	        "navigationBarTitleText": "OSS文件管理",
+	        "enablePullDownRefresh": false
+	      }
+	    },
+	    {
+	      "path": "pages/oss-manager/files",
+	      "style": {
+	        "navigationBarTitleText": "文件列表",
+	        "enablePullDownRefresh": false
+	      }
+	    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "装维照片上传系统",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+      "list": [
+        {
+          "pagePath": "pages/index/index",
+          "text": "首页"
+        },
+        {
+          "pagePath": "pages/my-uploads/my-uploads",
+          "text": "我的记录"
+        }
+      ]
+    }
+}
